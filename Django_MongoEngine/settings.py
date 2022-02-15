@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'Django_MongoEngine.wsgi.application'
 # }
 import mongoengine
 # mongodb+srv://djangomongo:<password>@djangomongo.v3py4.mongodb.net/test
-mongoengine.connect(db='linkedcamp-dev-new', host='mongodb+srv://mobylogix:mobylogix123@cluster0.rppvu.mongodb.net')
+mongoengine.connect(db='djangodb', host='mongodb+srv://mobylogix:mobylogix123@cluster0.rppvu.mongodb.net')
 # DATABASES = {
 #      'default': {
 #          'ENGINE': 'django.db.backends.dummy',
